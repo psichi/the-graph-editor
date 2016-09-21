@@ -1,0 +1,31 @@
+{
+  "name": "the-graph-editor",
+  "version": "1.0.0",
+  "description": "Describe the-graph-editor here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test",
+    "test:coverage": "nwb test --coverage",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {
+    "material-ui": "^0.15.4",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-tap-event-plugin": "^1.0.0",
+    "the-graph": "github:psichi/the-graph",
+    "tv4": "^1.2.7"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-destructuring": "^6.9.0",
+    "babel-plugin-transform-export-extensions": "^6.8.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "nwb": "0.12.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
