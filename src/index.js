@@ -1,5 +1,5 @@
+import 'font-awesome-webpack'
 import './index.css'
-
 import 'the-graph/themes/the-graph-dark.css';
 
 import React from 'react'
